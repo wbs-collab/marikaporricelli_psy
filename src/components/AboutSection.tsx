@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import profileImage from "@/assets/marika-poricelli.jpg";
 
 const AboutSection = () => {
   return (
@@ -15,7 +16,7 @@ const AboutSection = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-12 items-start">
             <div className="space-y-6">
               <p className="text-foreground leading-relaxed">
                 Sono una psicologa e psicoterapeuta specializzata nell'accompagnare persone, coppie e famiglie 
@@ -35,29 +36,44 @@ const AboutSection = () => {
             </div>
 
             <div className="space-y-6">
-              <Card className="warm-card">
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold text-foreground mb-4">Formazione</h3>
-                  <ul className="space-y-2 text-muted-foreground">
-                    <li>• Laurea in Psicologia</li>
-                    <li>• Specializzazione in Psicoterapia</li>
-                    <li>• Formazione in Terapia Familiare</li>
-                    <li>• Aggiornamento continuo in metodologie validate</li>
-                  </ul>
-                </CardContent>
-              </Card>
+              {/* Photo Section */}
+              <div className="flex justify-center">
+                <div className="relative">
+                  <img 
+                    src={profileImage} 
+                    alt="Dott.ssa Marika Poricelli" 
+                    className="w-64 h-80 object-cover rounded-2xl shadow-elevated"
+                  />
+                  <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-primary/10 to-transparent"></div>
+                </div>
+              </div>
 
-              <Card className="warm-card">
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold text-foreground mb-4">Specializzazioni</h3>
-                  <ul className="space-y-2 text-muted-foreground">
-                    <li>• Terapia individuale</li>
-                    <li>• Terapia di coppia</li>
-                    <li>• Terapia familiare</li>
-                    <li>• Supporto genitoriale</li>
-                  </ul>
-                </CardContent>
-              </Card>
+              {/* Cards Section */}
+              <div className="space-y-4">
+                <Card className="warm-card">
+                  <CardContent className="p-6">
+                    <h3 className="text-xl font-semibold text-foreground mb-4">Formazione</h3>
+                    <ul className="space-y-2 text-muted-foreground">
+                      <li>• Laurea in Psicologia</li>
+                      <li>• Specializzazione in Psicoterapia</li>
+                      <li>• Formazione in Terapia Familiare</li>
+                      <li>• Aggiornamento continuo in metodologie validate</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+
+                <Card className="warm-card">
+                  <CardContent className="p-6">
+                    <h3 className="text-xl font-semibold text-foreground mb-4">Specializzazioni</h3>
+                    <ul className="space-y-2 text-muted-foreground">
+                      <li>• Terapia individuale</li>
+                      <li>• Terapia di coppia</li>
+                      <li>• Terapia familiare</li>
+                      <li>• Supporto genitoriale</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+              </div>
             </div>
           </div>
         </div>
