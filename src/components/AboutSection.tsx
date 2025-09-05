@@ -43,7 +43,7 @@ const AboutSection = () => {
                   <img 
                     src={profileImage} 
                     alt="Dott.ssa Marika Porricelli" 
-                    className="w-56 h-72 lg:w-64 lg:h-80 object-cover rounded-2xl shadow-elevated"
+                    className="w-64 h-80 lg:w-72 lg:h-96 object-cover rounded-2xl shadow-elevated"
                   />
                   <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-primary/10 to-transparent"></div>
                 </div>
