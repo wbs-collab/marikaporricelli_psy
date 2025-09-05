@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
             <h3 className="text-2xl font-serif font-semibold mb-2">
-              Dott.ssa Marika Poricelli
+              Dott.ssa Marika Porricelli
             </h3>
             <p className="text-background/80">
               Psicologa e Psicoterapeuta
@@ -34,7 +34,7 @@ const Footer = () => {
           
           <div className="border-t border-background/20 pt-6">
             <p className="text-background/60 text-sm">
-              © 2024 Dott.ssa Marika Poricelli. Tutti i diritti riservati.
+              © 2024 Dott.ssa Marika Porricelli. Tutti i diritti riservati.
             </p>
             <p className="text-background/60 text-xs mt-2">
               Psicologa iscritta all'Ordine degli Psicologi del Lazio - N. XXXX

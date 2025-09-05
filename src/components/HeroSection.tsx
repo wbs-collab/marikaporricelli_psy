@@ -10,13 +10,13 @@ const HeroSection = () => {
       <div className="hero-content container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto animate-fade-in">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-primary-foreground mb-6 leading-tight">
-            Dott.ssa Marika Poricelli
+            Dott.ssa Marika Porricelli
           </h1>
           <p className="text-xl sm:text-2xl text-primary-foreground/90 mb-8 font-light">
             Psicologa e Psicoterapeuta
           </p>
           <div className="therapy-quote text-lg sm:text-xl text-primary-foreground/95 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Ogni percorso è costruito su misura, con ascolto, empatia e strumenti scientifici validati.
+Ogni percorso è costruito su misura, con ascolto, empatia e strumenti scientifici validati.
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button

@@ -19,7 +19,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <h2 className="text-xl font-serif font-semibold text-primary">
-              Dott.ssa Marika Poricelli
+              Dott.ssa Marika Porricelli
             </h2>
           </div>
 
