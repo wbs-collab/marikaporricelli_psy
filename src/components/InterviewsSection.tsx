@@ -18,17 +18,16 @@ const InterviewsSection = () => {
           </div>
 
           <div className="text-center">
-            <Button asChild size="lg">
-              <a 
-                href="https://www.youtube.com/watch?v=onDIP1yscR4"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Play className="w-5 h-5 mr-2" />
-                Guarda l'intervista su YouTube
-                <ExternalLink className="w-5 h-5 ml-2" />
-              </a>
-            </Button>
+            <a 
+              href="https://www.youtube.com/watch?v=onDIP1yscR4"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline text-lg font-semibold inline-flex items-center"
+            >
+              <Play className="w-5 h-5 mr-2" />
+              Guarda l'intervista su YouTube
+              <ExternalLink className="w-5 h-5 ml-2" />
+            </a>
           </div>
         </div>
       </div>
