@@ -18,21 +18,11 @@ const AboutSection = () => {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               {/* Text Section */}
               <div className="lg:col-span-2 space-y-6">
-                <p className="text-foreground leading-relaxed text-justify">
-                  Sono una psicologa e psicoterapeuta specializzata nell'accompagnare persone, coppie e famiglie 
-                  attraverso momenti di difficoltà e crescita personale. La mia formazione mi ha portato a sviluppare 
-                  un approccio che unisce competenza scientifica e calore umano.
-                </p>
-                <p className="text-foreground leading-relaxed text-justify">
-                  Nel mio studio, caratterizzato da elementi naturali in legno e atmosfere accoglienti, 
-                  creo uno spazio sicuro dove ogni persona può sentirsi compresa e supportata nel proprio 
-                  percorso di benessere psicologico.
-                </p>
-                <p className="text-foreground leading-relaxed text-justify">
-                  Credo profondamente nel valore delle relazioni familiari e nell'importanza di costruire 
-                  legami sani e duraturi. Ogni intervento è pensato su misura, rispettando i tempi e le 
-                  specificità di chi si rivolge a me.
-                </p>
+                <p className="text-foreground leading-relaxed text-justify">Sono una psicologa clinica, psicoterapeuta i.f. ad indirizzo sistemico relazionale, tecnico ABA, psicologo giuridico ed esperta di genitorialità. </p>
+                <p className="text-foreground leading-relaxed text-justify">Nel mio studio effettuo prestazioni di supporto psicologico ad adulti, adolescenti, coppie, famiglie e famiglie con bambini con disturbi psicologici di vario tipo con particolare interesse per depressione, ansia, stress e stress lavoro correlato. Tuttavia, il mio interesse è bypassare la diagnosi clinica e l'etichetta diagnostica ed iniziare con il paziente un lavoro sulle difficoltà relazionali.</p>
+                <p className="text-foreground leading-relaxed text-justify">Il mio modello di riferimento è quello sistemico-relazionale ed è incentrato sullo studio e osservazione del comportamento dell'individuo singolo, in coppia e in famiglia focalizzando l'attenzione sul sistema di relazioni significative in cui vive e con cui interagisce. Il sintomo, la diagnosi, la prognosi e il trattamento, sono riletti in chiave relazionale, pertanto è in tale ottica che si incentra la cura cioè nel dare un nuovo significato ai sintomi ed esplicitarne la funzione nel proprio contesto/sistema di vita.
+
+              </p>
               </div>
 
               {/* Photo Section */}
