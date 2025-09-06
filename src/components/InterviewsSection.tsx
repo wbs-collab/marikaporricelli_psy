@@ -37,7 +37,7 @@ const InterviewsSection = () => {
                 </p>
                 <Button asChild className="w-full">
                   <a 
-                    href="https://m.youtube.com/watch?v=onDIP1yscR4&pp=0gcJCRsBo7VqN5tD&fbclid=PAT01DUAMpG0pleHRuA2FlbQIxMAABp03Ksl8hvQKkfDtmOsKJCgnrcI5vVyABsCWEU1yi0Ls_hyUS839uJZqxb43b_aem_E4qUI7fjSHJegLUeo5fo9w"
+                    href="https://www.youtube.com/watch?v=onDIP1yscR4"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
