@@ -1,9 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import profileImage from "@/assets/marika-poricelli.jpg";
-
 const AboutSection = () => {
-  return (
-    <section id="about" className="py-20 bg-background">
+  return <section id="about" className="py-20 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
@@ -26,10 +24,7 @@ const AboutSection = () => {
                   un approccio che unisce competenza scientifica e calore umano.
                 </p>
                 <p className="text-foreground leading-relaxed text-justify">
-                  Nel mio studio, caratterizzato da elementi naturali in legno e atmosfere accoglienti, 
-                  creo uno spazio sicuro dove ogni persona può sentirsi compresa e supportata nel proprio 
-                  percorso di benessere psicologico.
-                </p>
+              </p>
                 <p className="text-foreground leading-relaxed text-justify">
                   Credo profondamente nel valore delle relazioni familiari e nell'importanza di costruire 
                   legami sani e duraturi. Ogni intervento è pensato su misura, rispettando i tempi e le 
@@ -40,11 +35,7 @@ const AboutSection = () => {
               {/* Photo Section */}
               <div className="flex justify-center lg:justify-end">
                 <div className="relative">
-                  <img 
-                    src={profileImage} 
-                    alt="Dott.ssa Marika Porricelli" 
-                    className="w-64 h-80 lg:w-72 lg:h-96 object-cover rounded-2xl shadow-elevated"
-                  />
+                  <img src={profileImage} alt="Dott.ssa Marika Porricelli" className="w-64 h-80 lg:w-72 lg:h-96 object-cover rounded-2xl shadow-elevated" />
                   <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-primary/10 to-transparent"></div>
                 </div>
               </div>
@@ -79,8 +70,6 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutSection;
