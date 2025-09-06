@@ -1,4 +1,4 @@
-import { Play, ExternalLink } from "lucide-react";
+import { Video, Link } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const InterviewsSection = () => {
@@ -24,9 +24,9 @@ const InterviewsSection = () => {
               rel="noopener noreferrer"
               className="text-primary hover:underline text-lg font-semibold inline-flex items-center"
             >
-              <Play className="w-5 h-5 mr-2" />
+              <Video className="w-5 h-5 mr-2" />
               Guarda l'intervista su YouTube
-              <ExternalLink className="w-5 h-5 ml-2" />
+              <Link className="w-5 h-5 ml-2" />
             </a>
           </div>
         </div>

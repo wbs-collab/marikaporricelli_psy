@@ -1,4 +1,4 @@
-import { MessageCircle, Instagram, Linkedin, Music, UserCheck, Users, Facebook } from "lucide-react";
+import { Zap, AtSign, Linkedin, Music, UserCheck, Users, Facebook } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -42,7 +42,7 @@ const Footer = () => {
               aria-label="Contattami su WhatsApp" 
               className="text-background/80 hover:text-background transition-colors flex items-center space-x-1"
             >
-              <MessageCircle className="w-5 h-5" />
+              <Zap className="w-5 h-5" />
               <span className="text-sm">WhatsApp</span>
             </a>
             <a 
@@ -52,7 +52,7 @@ const Footer = () => {
               aria-label="Seguimi su Instagram" 
               className="text-background/80 hover:text-background transition-colors flex items-center space-x-1"
             >
-              <Instagram className="w-5 h-5" />
+              <AtSign className="w-5 h-5" />
               <span className="text-sm">Instagram</span>
             </a>
             <a 
