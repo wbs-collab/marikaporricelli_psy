@@ -54,7 +54,7 @@ const AboutSection = () => {
                     <li>• Master di II livello in Psicologia Giuridico - Forense e Diagnostica Forense</li>
                     <li>• Specializzazione in Psicoterapia Sistemico - Relazionale</li>
                     <li>• Certificazione come Tecnico ABA (ASSOTABA)</li>
-                    <li>• Certificazione come Tecnico ABA (ASSOTABA)</li>
+                    <li>• Formazione in Terapia Familiare</li>
                   </ul>
                 </CardContent>
               </Card>
