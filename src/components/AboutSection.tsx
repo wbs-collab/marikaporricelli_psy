@@ -47,19 +47,19 @@ const AboutSection = () => {
             {/* Cards Section */}
             <div className="grid md:grid-cols-2 gap-4 mt-12">
               <Card className="warm-card">
-                <CardContent className="p-6 px-[20px] py-[20px]">
+                <CardContent className="p-6 px-[24px] py-[24px]">
                   <h3 className="text-xl font-semibold text-foreground mb-4">Formazione</h3>
                   <ul className="space-y-2 text-muted-foreground">
                     <li>• Laurea in Psicologia</li>
                     <li>• Master di II livello in Psicologia Giuridico - Forense e Diagnostica Forense</li>
                     <li>• Specializzazione in Psicoterapia Sistemico - Relazionale</li>
-                    <li>• Formazione in Terapia Familiare</li>
-                    <li>• Aggiornamento continuo in metodologie validate</li>
+                    <li>• Certificazione come Tecnico ABA (ASSOTABA)</li>
+                    <li>• Certificazione come Tecnico ABA (ASSOTABA)</li>
                   </ul>
                 </CardContent>
               </Card>
 
-              <Card className="warm-card px-[20px] py-[20px]">
+              <Card className="warm-card px-[24px] py-[24px]">
                 <CardContent className="p-6">
                   <h3 className="text-xl font-semibold text-foreground mb-4">Specializzazioni</h3>
                   <ul className="space-y-2 text-muted-foreground">
