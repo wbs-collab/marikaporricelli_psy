@@ -50,8 +50,8 @@ const AboutSection = () => {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-semibold text-foreground mb-4">Formazione</h3>
                   <ul className="space-y-2 text-muted-foreground">
-                    <li>• Laurea in Psicologia Clinica</li>
-                    <li>• Specializzazione in Psicoterapia I.F - S</li>
+                    <li>• Laurea in Psicologia</li>
+                    <li>• Specializzazione in Psicoterapia I.F</li>
                     <li>• Formazione in Terapia Familiare</li>
                     <li>• Aggiornamento continuo in metodologie validate</li>
                   </ul>
