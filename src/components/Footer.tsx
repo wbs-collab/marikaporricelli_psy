@@ -10,7 +10,7 @@ const Footer = () => {
               Dott.ssa Marika Porricelli
             </h3>
             <p className="text-background/80">
-              Psicologa e Psicoterapeuta Sistemico-Relazionale I.F
+              Psicologa e Psicoterapeuta Sistemico - Relazionale I.F
             </p>
           </div>
           
@@ -109,10 +109,10 @@ const Footer = () => {
 
           <div className="border-t border-background/20 pt-6">
             <p className="text-background/60 text-sm">
-              © 2024 Dott.ssa Marika Porricelli. Tutti i diritti riservati.
+              © 2025 Dott.ssa Marika Porricelli. Tutti i diritti riservati.
             </p>
             <p className="text-background/60 text-xs mt-2">
-              Psicologa iscritta all'Ordine degli Psicologi del Lazio - N. XXXX
+              Psicologa iscritta all'Ordine degli Psicologi della Regione Campania. N. 10708
             </p>
           </div>
         </div>

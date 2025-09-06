@@ -62,36 +62,19 @@ const ApproachSection = () => {
             ))}
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h3 className="text-2xl font-serif font-semibold text-foreground mb-6">
-                Un Ambiente Accogliente
-              </h3>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Il mio studio è pensato per essere un rifugio sicuro, caratterizzato da elementi naturali 
-                in legno e atmosfere calde che favoriscono il rilassamento e l'apertura emotiva.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Ogni dettaglio è studiato per creare un ambiente che rispecchi i valori di calore umano 
-                e professionalità, dove ogni persona può sentirsi a proprio agio nel condividere 
-                le proprie esperienze e difficoltà.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-serif font-semibold text-foreground mb-6">
-                Percorsi Personalizzati
-              </h3>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Non esistono soluzioni universali in psicoterapia. Ogni intervento è costruito 
-                specificamente per la persona o la famiglia che ho di fronte, rispettando le 
-                sue caratteristiche uniche e i suoi obiettivi.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                La durata e la frequenza degli incontri vengono concordate insieme, 
-                garantendo flessibilità e adattamento alle esigenze specifiche di ogni situazione.
-              </p>
-            </div>
+          <div className="text-center">
+            <h3 className="text-2xl font-serif font-semibold text-foreground mb-6">
+              Percorsi Personalizzati
+            </h3>
+            <p className="text-muted-foreground leading-relaxed mb-4 max-w-2xl mx-auto">
+              Non esistono soluzioni universali in psicoterapia. Ogni intervento è costruito 
+              specificamente per la persona o la famiglia che ho di fronte, rispettando le 
+              sue caratteristiche uniche e i suoi obiettivi.
+            </p>
+            <p className="text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+              La durata e la frequenza degli incontri vengono concordate insieme, 
+              garantendo flessibilità e adattamento alle esigenze specifiche di ogni situazione.
+            </p>
           </div>
         </div>
       </div>
