@@ -1,9 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import profileImage from "@/assets/marika-poricelli.jpg";
-
 const AboutSection = () => {
-  return (
-    <section id="about" className="py-20 bg-background">
+  return <section id="about" className="py-20 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
@@ -40,11 +38,7 @@ const AboutSection = () => {
               {/* Photo Section */}
               <div className="flex justify-center lg:justify-end">
                 <div className="relative">
-                  <img 
-                    src={profileImage} 
-                    alt="Dott.ssa Marika Porricelli" 
-                    className="w-64 h-80 lg:w-72 lg:h-96 object-cover rounded-2xl shadow-elevated"
-                  />
+                  <img src={profileImage} alt="Dott.ssa Marika Porricelli" className="w-64 h-80 lg:w-72 lg:h-96 object-cover rounded-2xl shadow-elevated" />
                   <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-primary/10 to-transparent"></div>
                 </div>
               </div>
@@ -56,8 +50,8 @@ const AboutSection = () => {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-semibold text-foreground mb-4">Formazione</h3>
                   <ul className="space-y-2 text-muted-foreground">
-                    <li>• Laurea in Psicologia</li>
-                    <li>• Specializzazione in Psicoterapia</li>
+                    <li>• Laurea in Psicologia Clinica</li>
+                    <li>• Specializzazione in Psicoterapia I.F - S</li>
                     <li>• Formazione in Terapia Familiare</li>
                     <li>• Aggiornamento continuo in metodologie validate</li>
                   </ul>
@@ -79,8 +73,6 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutSection;
