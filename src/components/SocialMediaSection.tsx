@@ -2,14 +2,22 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Instagram } from "lucide-react";
 
+import post1 from "/src/assets/hero-option-1.jpg";
+import post2 from "/src/assets/hero-option-2.jpg";
+import post3 from "/src/assets/hero-option-3.jpg";
+import post4 from "/src/assets/hero-option-4.jpg";
+import post5 from "/src/assets/hero-therapy-office.jpg";
+import post6 from "/src/assets/marika-poricelli.jpg";
+import profilePic from "/src/assets/marika-poricelli.jpg";
+
 const SocialMediaSection = () => {
   const instagramPosts = [
-    { id: 1, src: "/src/assets/hero-option-1.jpg", alt: "Post 1" },
-    { id: 2, src: "/src/assets/hero-option-2.jpg", alt: "Post 2" },
-    { id: 3, src: "/src/assets/hero-option-3.jpg", alt: "Post 3" },
-    { id: 4, src: "/src/assets/hero-option-4.jpg", alt: "Post 4" },
-    { id: 5, src: "/src/assets/hero-therapy-office.jpg", alt: "Post 5" },
-    { id: 6, src: "/src/assets/marika-poricelli.jpg", alt: "Post 6" },
+    { id: 1, src: post1, alt: "Post 1" },
+    { id: 2, src: post2, alt: "Post 2" },
+    { id: 3, src: post3, alt: "Post 3" },
+    { id: 4, src: post4, alt: "Post 4" },
+    { id: 5, src: post5, alt: "Post 5" },
+    { id: 6, src: post6, alt: "Post 6" },
   ];
 
   return (
@@ -28,7 +36,7 @@ const SocialMediaSection = () => {
               <div className="flex items-center justify-between mb-6">
                 <div className="flex items-center space-x-4">
                   <img
-                    src="/src/assets/marika-poricelli.jpg"
+                    src={profilePic}
                     alt="Marika Porricelli"
                     className="w-16 h-16 rounded-full object-cover"
                   />
