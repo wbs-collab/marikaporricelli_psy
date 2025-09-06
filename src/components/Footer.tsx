@@ -1,4 +1,4 @@
-import { Smartphone, Linkedin, Link, Stethoscope } from "lucide-react";
+import { MessageCircle, Instagram, Linkedin, Music, UserCheck, Users, Facebook } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -34,18 +34,76 @@ const Footer = () => {
             </div>
           </div>
           
-          <div className="mb-8 flex justify-center space-x-6">
-            <a href="#" aria-label="Whatsapp" className="text-background/80 hover:text-background transition-colors">
-              <Smartphone className="w-6 h-6" />
+          <div className="mb-8 flex justify-center space-x-4 flex-wrap gap-y-4">
+            <a 
+              href="https://wa.me/39XXXXXXXXX" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              aria-label="Contattami su WhatsApp" 
+              className="text-background/80 hover:text-background transition-colors flex items-center space-x-1"
+            >
+              <MessageCircle className="w-5 h-5" />
+              <span className="text-sm">WhatsApp</span>
             </a>
-            <a href="#" aria-label="LinkedIn" className="text-background/80 hover:text-background transition-colors">
-              <Linkedin className="w-6 h-6" />
+            <a 
+              href="https://www.instagram.com/marikaporricelli_psicologa?igsh=MW03Z2V3c3MydjRybQ==" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              aria-label="Seguimi su Instagram" 
+              className="text-background/80 hover:text-background transition-colors flex items-center space-x-1"
+            >
+              <Instagram className="w-5 h-5" />
+              <span className="text-sm">Instagram</span>
             </a>
-            <a href="#" aria-label="TikTok" className="text-background/80 hover:text-background transition-colors">
-              <Link className="w-6 h-6" />
+            <a 
+              href="https://www.linkedin.com/in/marika-porricelli-484518160/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              aria-label="Collegati su LinkedIn" 
+              className="text-background/80 hover:text-background transition-colors flex items-center space-x-1"
+            >
+              <Linkedin className="w-5 h-5" />
+              <span className="text-sm">LinkedIn</span>
             </a>
-            <a href="#" aria-label="Mio Dottore" className="text-background/80 hover:text-background transition-colors">
-              <Stethoscope className="w-6 h-6" />
+            <a 
+              href="https://www.tiktok.com/@dott.ssa.porricelli1?_t=ZN-8zViOfpeKve&_r=1" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              aria-label="Seguimi su TikTok" 
+              className="text-background/80 hover:text-background transition-colors flex items-center space-x-1"
+            >
+              <Music className="w-5 h-5" />
+              <span className="text-sm">TikTok</span>
+            </a>
+            <a 
+              href="https://www.miodottore.it/marika-porricelli/psicologo/cardito" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              aria-label="Prenota su MioDottore" 
+              className="text-background/80 hover:text-background transition-colors flex items-center space-x-1"
+            >
+              <UserCheck className="w-5 h-5" />
+              <span className="text-sm">MioDottore</span>
+            </a>
+            <a 
+              href="https://www.guidapsicologi.it/studio/marika-porricelli" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              aria-label="Profilo su GuidaPsicologi" 
+              className="text-background/80 hover:text-background transition-colors flex items-center space-x-1"
+            >
+              <Users className="w-5 h-5" />
+              <span className="text-sm">GuidaPsicologi</span>
+            </a>
+            <a 
+              href="https://m.facebook.com/2057828044527177/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              aria-label="Seguimi su Facebook" 
+              className="text-background/80 hover:text-background transition-colors flex items-center space-x-1"
+            >
+              <Facebook className="w-5 h-5" />
+              <span className="text-sm">Facebook</span>
             </a>
           </div>
 
