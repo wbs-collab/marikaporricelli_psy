@@ -6,6 +6,7 @@ import ApproachSection from "@/components/ApproachSection";
 import ContactSection from "@/components/ContactSection";
 import ContactFormSection from "@/components/ContactFormSection";
 import SocialMediaSection from "@/components/SocialMediaSection";
+import StudioSection from "@/components/StudioSection";
 import InterviewsSection from "@/components/InterviewsSection";
 import Footer from "@/components/Footer";
 
@@ -16,6 +17,7 @@ const Index = () => {
       <main>
         <HeroSection />
         <AboutSection />
+        <StudioSection />
         <ServicesSection />
         <ApproachSection />
         <ContactSection />
