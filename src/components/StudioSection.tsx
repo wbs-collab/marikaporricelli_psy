@@ -14,7 +14,7 @@ const StudioSection = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
             </div>
             <div className="space-y-6 text-lg">
-              <p className="text-foreground leading-relaxed text-justify">Il mio studio è pensato per essere un rifugio sicuro e a</p>
+              <p className="text-foreground leading-relaxed text-justify">Il mio studio è pensato per essere un rifugio sicuro, dove un’atmosfera calda favorisce il rilassamento e l’apertura emotiva.</p>
               <p className="text-muted-foreground leading-relaxed text-justify">
                 Ogni dettaglio è studiato per creare un ambiente che rispecchi i valori di calore umano e professionalità, dove ogni persona può sentirsi a proprio agio nel condividere le proprie esperienze e difficoltà.
               </p>
