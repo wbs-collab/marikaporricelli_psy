@@ -51,43 +51,46 @@ const SocialMediaSection = () => {
               </div>
             </div>
             
-            <Button 
+            <Button asChild
               className="bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 hover:from-purple-600 hover:via-pink-600 hover:to-orange-500 text-white border-0"
-              onClick={() => window.open('https://www.instagram.com/marikaporricelli_psicologa?igsh=MW03Z2V3c3MydjRybQ==', '_blank')}
             >
-              <Instagram className="w-4 h-4 mr-2" />
-              Segui su Instagram
-              <ExternalLink className="w-4 h-4 ml-2" />
+              <a href="https://www.instagram.com/marikaporricelli_psicologa?igsh=MW03Z2V3c3MydjRybQ==" target="_blank" rel="noopener noreferrer">
+                <Instagram className="w-4 h-4 mr-2" />
+                Segui su Instagram
+                <ExternalLink className="w-4 h-4 ml-2" />
+              </a>
             </Button>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
             {instagramPosts.map((post) => (
-              <Card key={post.id} className="warm-card overflow-hidden group cursor-pointer" onClick={() => window.open('https://www.instagram.com/marikaporricelli_psicologa?igsh=MW03Z2V3c3MydjRybQ==', '_blank')}>
-                <div className="relative overflow-hidden">
-                  <img 
-                    src={post.image} 
-                    alt="Instagram post" 
-                    className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <p className="text-sm font-medium">{post.caption}</p>
-                  </div>
-                </div>
-                <CardContent className="p-4">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-2">
-                      <div className="w-8 h-8 rounded-full bg-gradient-to-br from-purple-500 via-pink-500 to-orange-400 flex items-center justify-center">
-                        <Instagram className="w-4 h-4 text-white" />
-                      </div>
-                      <span className="text-sm font-medium text-foreground">@marikaporricelli_psicologa</span>
+              <a key={post.id} href="https://www.instagram.com/marikaporricelli_psicologa?igsh=MW03Z2V3c3MydjRybQ==" target="_blank" rel="noopener noreferrer">
+                <Card className="warm-card overflow-hidden group cursor-pointer h-full">
+                  <div className="relative overflow-hidden">
+                    <img 
+                      src={post.image} 
+                      alt="Instagram post" 
+                      className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <p className="text-sm font-medium">{post.caption}</p>
                     </div>
-                    <span className="text-sm text-muted-foreground">♥ {post.likes}</span>
                   </div>
-                  <p className="text-sm text-muted-foreground mt-2 line-clamp-2">{post.caption}</p>
-                </CardContent>
-              </Card>
+                  <CardContent className="p-4">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center space-x-2">
+                        <div className="w-8 h-8 rounded-full bg-gradient-to-br from-purple-500 via-pink-500 to-orange-400 flex items-center justify-center">
+                          <Instagram className="w-4 h-4 text-white" />
+                        </div>
+                        <span className="text-sm font-medium text-foreground">@marikaporricelli_psicologa</span>
+                      </div>
+                      <span className="text-sm text-muted-foreground">♥ {post.likes}</span>
+                    </div>
+                    <p className="text-sm text-muted-foreground mt-2 line-clamp-2">{post.caption}</p>
+                  </CardContent>
+                </Card>
+              </a>
             ))}
           </div>
 
