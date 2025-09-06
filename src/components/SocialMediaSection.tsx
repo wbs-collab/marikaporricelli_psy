@@ -4,13 +4,13 @@ const SocialMediaSection = () => {
   const socialMediaLinks = [
     {
       name: "WhatsApp",
-      href: "https://wa.me/1234567890",
+      href: "https://wa.me/393343696441",
       icon: MessageCircle,
       description: "Contattami direttamente"
     },
     {
       name: "Instagram",
-      href: "https://www.tiktok.com/@dott.ssa.porricelli1?_t=ZN-8zViOfpeKve&_r=1",
+      href: "https://www.instagram.com/marikaporricelli_psicologa",
       icon: Instagram,
       description: "@marikaporricelli_psicologa"
     },

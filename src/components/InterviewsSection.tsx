@@ -19,7 +19,7 @@ const InterviewsSection = () => {
 
           <div className="text-center">
             <a 
-              href="https://www.youtube.com/watch?v=onDIP1yscR4"
+              href="https://youtu.be/onDIP1yscR4"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline text-lg font-semibold inline-flex items-center"
