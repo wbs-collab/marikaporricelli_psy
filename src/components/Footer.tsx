@@ -1,5 +1,3 @@
-import { Smartphone, Linkedin, Link, Stethoscope } from "lucide-react";
-
 const Footer = () => {
   return (
     <footer className="bg-foreground text-background py-12">
@@ -34,21 +32,6 @@ const Footer = () => {
             </div>
           </div>
           
-          <div className="mb-8 flex justify-center space-x-6">
-            <a href="#" aria-label="Whatsapp" className="text-background/80 hover:text-background transition-colors">
-              <Smartphone className="w-6 h-6" />
-            </a>
-            <a href="#" aria-label="LinkedIn" className="text-background/80 hover:text-background transition-colors">
-              <Linkedin className="w-6 h-6" />
-            </a>
-            <a href="#" aria-label="TikTok" className="text-background/80 hover:text-background transition-colors">
-              <Link className="w-6 h-6" />
-            </a>
-            <a href="#" aria-label="Mio Dottore" className="text-background/80 hover:text-background transition-colors">
-              <Stethoscope className="w-6 h-6" />
-            </a>
-          </div>
-
           <div className="border-t border-background/20 pt-6">
             <p className="text-background/60 text-sm">
               © 2024 Dott.ssa Marika Porricelli. Tutti i diritti riservati.
