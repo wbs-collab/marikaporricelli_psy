@@ -1,4 +1,4 @@
-import { Zap, AtSign, Linkedin, Music, UserCheck, Users, Facebook } from "lucide-react";
+import { MessageCircle, Instagram, Linkedin, Music, UserCheck, Users, Facebook } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -10,21 +10,21 @@ const Footer = () => {
               Dott.ssa Marika Porricelli
             </h3>
             <p className="text-background/80">
-              Psicologa e Psicoterapeuta
+              Psicologa e Psicoterapeuta Sistemico-Relazionale I.F
             </p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8 mb-8 text-sm">
             <div>
               <h4 className="font-semibold mb-3">Contatti</h4>
-              <p className="text-background/80 mb-1">+39 XXX XXX XXXX</p>
-              <p className="text-background/80">info@marikaporicelli.it</p>
+              <p className="text-background/80 mb-1">+39 3343696441</p>
+              <p className="text-background/80">psyporricelli@gmail.com</p>
             </div>
             
             <div>
               <h4 className="font-semibold mb-3">Studio</h4>
-              <p className="text-background/80">Via delle Rose, 123</p>
-              <p className="text-background/80">00100 Roma, RM</p>
+              <p className="text-background/80">Via della Repubblica, 8</p>
+              <p className="text-background/80">Cardito, NA</p>
             </div>
             
             <div>
@@ -36,23 +36,23 @@ const Footer = () => {
           
           <div className="mb-8 flex justify-center space-x-4 flex-wrap gap-y-4">
             <a 
-              href="https://wa.me/39XXXXXXXXX" 
+              href="https://wa.me/393343696441" 
               target="_blank" 
               rel="noopener noreferrer" 
               aria-label="Contattami su WhatsApp" 
               className="text-background/80 hover:text-background transition-colors flex items-center space-x-1"
             >
-              <Zap className="w-5 h-5" />
+              <MessageCircle className="w-5 h-5" />
               <span className="text-sm">WhatsApp</span>
             </a>
             <a 
-              href="https://www.instagram.com/marikaporricelli_psicologa?igsh=MW03Z2V3c3MydjRybQ==" 
+              href="https://www.instagram.com/marikaporricelli_psicologa" 
               target="_blank" 
               rel="noopener noreferrer" 
               aria-label="Seguimi su Instagram" 
               className="text-background/80 hover:text-background transition-colors flex items-center space-x-1"
             >
-              <AtSign className="w-5 h-5" />
+              <Instagram className="w-5 h-5" />
               <span className="text-sm">Instagram</span>
             </a>
             <a 
