@@ -30,7 +30,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <p className="font-medium text-foreground">Telefono</p>
-                      <p className="text-muted-foreground">+39 XXX XXX XXXX</p>
+                      <p className="text-muted-foreground">+39 3343696441X</p>
                       <p className="text-sm text-muted-foreground mt-1">Disponibile per appuntamenti</p>
                     </div>
                   </div>
@@ -41,7 +41,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <p className="font-medium text-foreground">Email</p>
-                      <p className="text-muted-foreground">info@marikaporicelli.it</p>
+                      <p className="text-muted-foreground">psyporricelli@gmail.com</p>
                       <p className="text-sm text-muted-foreground mt-1">Risposta entro 24 ore</p>
                     </div>
                   </div>
@@ -52,8 +52,8 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <p className="font-medium text-foreground">Studio</p>
-                      <p className="text-muted-foreground">Via delle Rose, 123</p>
-                      <p className="text-muted-foreground">00100 Roma, RM</p>
+                      <p className="text-muted-foreground">Via della Repubblica, 8</p>
+                      <p className="text-muted-foreground">Cardito, NA</p>
                     </div>
                   </div>
                 </div>
@@ -90,8 +90,8 @@ const ContactSection = () => {
                 </div>
                 <div className="mt-6 p-4 bg-accent/10 rounded-lg">
                   <p className="text-sm text-muted-foreground text-center">
-                    Gli appuntamenti sono disponibili solo su prenotazione. 
-                    Sessioni serali disponibili su richiesta.
+                  Per garantire la massima attenzione a ogni percorso, ricevo esclusivamente su appuntamento. 
+                  Offro la flessibilità di sessioni serali e la possibilità di effettuare consulenze online, per venire incontro a ogni esigenza.
                   </p>
                 </div>
               </CardContent>
