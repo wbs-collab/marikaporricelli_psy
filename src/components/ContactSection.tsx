@@ -30,7 +30,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <p className="font-medium text-foreground">Telefono</p>
-                      <p className="text-muted-foreground">+39 3343696441X</p>
+                      <p className="text-muted-foreground">+39 3343696441</p>
                       <p className="text-sm text-muted-foreground mt-1">Disponibile per appuntamenti</p>
                     </div>
                   </div>
@@ -111,7 +111,7 @@ const ContactSection = () => {
                 <Button 
                   size="lg"
                   className="bg-primary hover:bg-primary/90 text-primary-foreground"
-                  onClick={() => window.location.href = 'tel:+39XXXXXXXXX'}
+                  onClick={() => window.location.href = 'tel:+393343696441'}
                 >
                   Chiama Ora
                 </Button>

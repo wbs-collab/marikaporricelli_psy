@@ -22,7 +22,6 @@ const AboutSection = () => {
                 <p className="text-foreground leading-relaxed text-justify">Nel mio studio offro percorsi di supporto psicologico rivolti ad adulti, adolescenti, coppie e famiglie, comprese quelle con bambini che presentano disturbi psicologici di varia natura. Mi occupo in particolare di depressione, ansia, stress e stress lavoro-correlato. Il mio obiettivo è superare l’etichetta diagnostica e avviare con la persona un lavoro focalizzato sulle difficoltà relazionali.</p>
                 <p className="text-foreground leading-relaxed text-justify">Il modello di riferimento è quello sistemico-relazionale, che si concentra sull’osservazione del comportamento dell’individuo nel suo contesto: come singolo, in coppia o all’interno della famiglia. L’attenzione è rivolta al sistema di relazioni significative in cui vive e interagisce. In quest’ottica, sintomi, diagnosi, prognosi e trattamento vengono riletti in chiave relazionale, attribuendo un nuovo significato ai sintomi ed esplicitandone la funzione all’interno del proprio sistema di vita.</p>
 
-              </p>
               </div>
 
               {/* Photo Section */}
