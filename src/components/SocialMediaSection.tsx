@@ -10,7 +10,7 @@ const SocialMediaSection = () => {
     },
     {
       name: "Instagram",
-      href: "https://www.instagram.com/marikaporricelli_psicologa",
+      href: "https://www.tiktok.com/@dott.ssa.porricelli1?_t=ZN-8zViOfpeKve&_r=1",
       icon: Instagram,
       description: "@marikaporricelli_psicologa"
     },

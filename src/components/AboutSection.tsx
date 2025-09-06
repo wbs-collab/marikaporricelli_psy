@@ -50,8 +50,8 @@ const AboutSection = () => {
                 <CardContent className="p-6 px-[20px] py-[20px]">
                   <h3 className="text-xl font-semibold text-foreground mb-4">Formazione</h3>
                   <ul className="space-y-2 text-muted-foreground">
-                    <li>• Laurea in Psicologia
-• Master di II livello in Psicologia Giuridico -         Forense e Diagnostica Forense</li>
+                    <li>• Laurea in Psicologia</li>
+                    <li>• Master di II livello in Psicologia Giuridico - Forense e Diagnostica Forense</li>
                     <li>• Specializzazione in Psicoterapia Sistemico - Relazionale</li>
                     <li>• Formazione in Terapia Familiare</li>
                     <li>• Aggiornamento continuo in metodologie validate</li>
