@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import profileImage from "@/assets/marika-poricelli.jpg";
+import profileImage from "/lovable-uploads/38e8d6ed-6ba0-4317-b0fd-2b912f115df9.png";
 const AboutSection = () => {
   return <section id="about" className="py-20 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -18,9 +18,9 @@ const AboutSection = () => {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               {/* Text Section */}
               <div className="lg:col-span-2 space-y-6">
-                <p className="text-foreground leading-relaxed text-justify">Sono una psicologa clinica e psicoterapeuta i.f. ad indirizzo sistemico-relazionale. Sono inoltre tecnico ABA, psicologa giuridica ed esperta di genitorialità. </p>
-                <p className="text-foreground leading-relaxed text-justify">Nel mio studio offro percorsi di supporto psicologico rivolti ad adulti, adolescenti, coppie e famiglie, comprese quelle con bambini che presentano disturbi psicologici di varia natura. Mi occupo in particolare di depressione, ansia, stress e stress lavoro-correlato. Il mio obiettivo è superare l’etichetta diagnostica e avviare con la persona un lavoro focalizzato sulle difficoltà relazionali.</p>
-                <p className="text-foreground leading-relaxed text-justify">Il modello di riferimento è quello sistemico-relazionale, che si concentra sull’osservazione del comportamento dell’individuo nel suo contesto: come singolo, in coppia o all’interno della famiglia. L’attenzione è rivolta al sistema di relazioni significative in cui vive e interagisce. In quest’ottica, sintomi, diagnosi, prognosi e trattamento vengono riletti in chiave relazionale, attribuendo un nuovo significato ai sintomi ed esplicitandone la funzione all’interno del proprio sistema di vita.</p>
+                <p className="text-foreground leading-relaxed text-justify">Sono una psicologa clinica e psicoterapeuta i.f. ad indirizzo sistemico-relazionale. Sono inoltre tecnico ABA, psicologa giuridica ed esperta di genitorialità.</p>
+                <p className="text-foreground leading-relaxed text-justify">Nel mio studio offro percorsi di supporto psicologico rivolti ad adulti, adolescenti, coppie e famiglie, comprese quelle con bambini che presentano disturbi psicologici di varia natura. Mi occupo in particolare di depressione, ansia, stress e stress lavoro-correlato. Il mio obiettivo è superare l'etichetta della diagnosi e avviare con la persona un lavoro focalizzato sulle difficoltà relazionali.</p>
+                <p className="text-foreground leading-relaxed text-justify">Il modello di riferimento è quello sistemico-relazionale, che si concentra sull'osservazione del comportamento dell'individuo nel suo contesto: come singolo, in coppia o all'interno della famiglia. L'attenzione è rivolta al sistema di relazioni significative in cui vive e interagisce. In quest'ottica, sintomi, diagnosi, prognosi e trattamento vengono riletti in chiave relazionale, attribuendo un nuovo significato ai sintomi e capendo insieme qual è la loro funzione all'interno della propria vita.</p>
 
               </div>
 
@@ -42,7 +42,7 @@ const AboutSection = () => {
                     <li>• Laurea in Psicologia</li>
                     <li>• Master di II livello in Psicologia Giuridico - Forense e Diagnostica Forense</li>
                     <li>• Specializzazione in Psicoterapia Sistemico - Relazionale</li>
-                    <li>• Certificazione come Tecnico ABA (ASSOTABA)</li>
+                    <li>• Certificazione come Tecnico ABA (ASSOTABA)</li>
                     <li>• Formazione in Terapia Familiare</li>
                   </ul>
                 </CardContent>
