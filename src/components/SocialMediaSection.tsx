@@ -4,7 +4,7 @@ const SocialMediaSection = () => {
   const socialMediaLinks = [
     {
       name: "WhatsApp",
-      href: "https://wa.me/393343696441",
+      href: "https://wa.me/393343697841",
       icon: MessageCircle,
       description: "Contattami direttamente"
     },

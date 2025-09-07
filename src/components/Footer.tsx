@@ -36,7 +36,7 @@ const Footer = () => {
           
           <div className="mb-8 flex justify-center space-x-4 flex-wrap gap-y-4">
             <a 
-              href="https://wa.me/393343696441" 
+              href="https://wa.me/393343697841" 
               target="_blank" 
               rel="noopener noreferrer" 
               aria-label="Contattami su WhatsApp" 
