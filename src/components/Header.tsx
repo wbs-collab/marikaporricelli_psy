@@ -61,13 +61,12 @@ const Header = () => {
             >
               Social
             </button>
-            <Button
+            <button
               onClick={() => scrollToSection('interviews')}
-              variant="default"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground"
+              className="text-foreground hover:text-primary transition-colors duration-200"
             >
               Interviste e Conferenze
-            </Button>
+            </button>
           </nav>
 
           {/* Mobile menu button */}
@@ -122,13 +121,12 @@ const Header = () => {
               >
                 Social
               </button>
-              <Button
+              <button
                 onClick={() => scrollToSection('interviews')}
-                variant="default"
-                className="w-full mt-2 bg-primary hover:bg-primary/90 text-primary-foreground"
+                className="block px-3 py-2 text-foreground hover:text-primary transition-colors duration-200 w-full text-left"
               >
                 Interviste e Conferenze
-              </Button>
+              </button>
             </div>
           </div>
         )}
