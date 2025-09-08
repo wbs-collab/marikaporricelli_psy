@@ -47,7 +47,7 @@ const SocialMediaSection = () => {
   ];
 
   return (
-    <section id="social-media" className="py-20 bg-background">
+    <section id="social" className="py-20 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
