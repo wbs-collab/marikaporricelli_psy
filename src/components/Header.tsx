@@ -50,29 +50,23 @@ const Header = () => {
               Approccio
             </button>
             <button
-              onClick={() => scrollToSection('social')}
-              className="text-foreground hover:text-primary transition-colors duration-200"
-            >
-              Seguimi sui Social
-            </button>
-            <button
-              onClick={() => scrollToSection('interviews')}
-              className="text-foreground hover:text-primary transition-colors duration-200"
-            >
-              Interviste e Conferenze
-            </button>
-            <button
               onClick={() => scrollToSection('contact-form')}
               className="text-foreground hover:text-primary transition-colors duration-200"
             >
-              Richiesta Informazioni
+              Contatti
+            </button>
+            <button
+              onClick={() => scrollToSection('social')}
+              className="text-foreground hover:text-primary transition-colors duration-200"
+            >
+              Social
             </button>
             <Button
-              onClick={() => scrollToSection('contact')}
+              onClick={() => scrollToSection('interviews')}
               variant="default"
               className="bg-primary hover:bg-primary/90 text-primary-foreground"
             >
-              Contatti
+              Interviste e Conferenze
             </Button>
           </nav>
 
@@ -117,29 +111,23 @@ const Header = () => {
                 Approccio
               </button>
               <button
-                onClick={() => scrollToSection('social')}
-                className="block px-3 py-2 text-foreground hover:text-primary transition-colors duration-200 w-full text-left"
-              >
-                Seguimi sui Social
-              </button>
-              <button
-                onClick={() => scrollToSection('interviews')}
-                className="block px-3 py-2 text-foreground hover:text-primary transition-colors duration-200 w-full text-left"
-              >
-                Interviste e Conferenze
-              </button>
-              <button
                 onClick={() => scrollToSection('contact-form')}
                 className="block px-3 py-2 text-foreground hover:text-primary transition-colors duration-200 w-full text-left"
               >
-                Richiesta Informazioni
+                Contatti
+              </button>
+              <button
+                onClick={() => scrollToSection('social')}
+                className="block px-3 py-2 text-foreground hover:text-primary transition-colors duration-200 w-full text-left"
+              >
+                Social
               </button>
               <Button
-                onClick={() => scrollToSection('contact')}
+                onClick={() => scrollToSection('interviews')}
                 variant="default"
                 className="w-full mt-2 bg-primary hover:bg-primary/90 text-primary-foreground"
               >
-                Contatti
+                Interviste e Conferenze
               </Button>
             </div>
           </div>
