@@ -1,5 +1,6 @@
-import { Video, Link } from "lucide-react";
+import { Video, Link, X } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 const InterviewsSection = () => {
   return (
@@ -51,29 +52,45 @@ const InterviewsSection = () => {
             </a>
 
             {/* Conference Poster */}
-            <div className="group">
-              <Card className="overflow-hidden h-full text-left">
-                <div className="relative">
+            <Dialog>
+              <DialogTrigger asChild>
+                <div className="group cursor-pointer">
+                  <Card className="overflow-hidden h-full text-left hover:shadow-lg transition-shadow duration-300">
+                    <div className="relative">
+                      <img 
+                        src="/lovable-uploads/064857cb-eb90-4c88-bb7f-896abbe52554.png"
+                        alt="Locandina conferenza - Quando l'amore diventa violenza"
+                        className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300"></div>
+                    </div>
+                    <CardContent className="p-6">
+                      <h3 className="text-xl font-semibold text-foreground mb-2">
+                        Conferenza sulla Violenza
+                      </h3>
+                      <p className="text-muted-foreground mb-4 italic">
+                        "Le ferite invisibili pesano più di quelle visibili. Non portarle da sol*, chiedi aiuto."
+                      </p>
+                      <p className="text-sm text-muted-foreground">
+                        Intervento presso il Forum dei Giovani sul tema della violenza domestica e sui minori.
+                      </p>
+                    </CardContent>
+                  </Card>
+                </div>
+              </DialogTrigger>
+              <DialogContent className="max-w-4xl max-h-[90vh] overflow-auto">
+                <div className="flex flex-col items-center">
                   <img 
                     src="/lovable-uploads/064857cb-eb90-4c88-bb7f-896abbe52554.png"
                     alt="Locandina conferenza - Quando l'amore diventa violenza"
-                    className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="w-full max-w-2xl h-auto object-contain mb-6"
                   />
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300"></div>
-                </div>
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold text-foreground mb-2">
-                    Conferenza sulla Violenza
-                  </h3>
-                  <p className="text-muted-foreground mb-4 italic">
+                  <p className="text-lg text-center font-medium text-foreground italic bg-muted/50 p-4 rounded-lg">
                     "Le ferite invisibili pesano più di quelle visibili. Non portarle da sol*, chiedi aiuto."
                   </p>
-                  <p className="text-sm text-muted-foreground">
-                    Intervento presso il Forum dei Giovani sul tema della violenza domestica e sui minori.
-                  </p>
-                </CardContent>
-              </Card>
-            </div>
+                </div>
+              </DialogContent>
+            </Dialog>
           </div>
         </div>
       </div>
