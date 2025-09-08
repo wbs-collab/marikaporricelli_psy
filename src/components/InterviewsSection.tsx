@@ -17,14 +17,15 @@ const InterviewsSection = () => {
             </p>
           </div>
 
-          <div className="text-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            {/* YouTube Interview */}
             <a 
               href="https://youtu.be/onDIP1yscR4"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block max-w-md mx-auto"
+              className="block group"
             >
-              <Card className="overflow-hidden group text-left">
+              <Card className="overflow-hidden h-full text-left">
                 <div className="relative">
                   <div className="w-full h-48 bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center">
                     <div className="w-20 h-20 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors duration-300">
@@ -48,6 +49,31 @@ const InterviewsSection = () => {
                 </CardContent>
               </Card>
             </a>
+
+            {/* Conference Poster */}
+            <div className="group">
+              <Card className="overflow-hidden h-full text-left">
+                <div className="relative">
+                  <img 
+                    src="/lovable-uploads/064857cb-eb90-4c88-bb7f-896abbe52554.png"
+                    alt="Locandina conferenza - Quando l'amore diventa violenza"
+                    className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300"></div>
+                </div>
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-semibold text-foreground mb-2">
+                    Conferenza sulla Violenza
+                  </h3>
+                  <p className="text-muted-foreground mb-4 italic">
+                    "Le ferite invisibili pesano più di quelle visibili. Non portarle da sol*, chiedi aiuto."
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    Intervento presso il Forum dei Giovani sul tema della violenza domestica e sui minori.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </div>
       </div>
