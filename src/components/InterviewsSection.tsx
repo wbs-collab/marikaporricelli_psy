@@ -18,7 +18,7 @@ const InterviewsSection = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {/* YouTube Interview */}
             <a 
               href="https://youtu.be/onDIP1yscR4"
@@ -88,6 +88,67 @@ const InterviewsSection = () => {
                   <p className="text-lg text-center font-medium text-foreground italic bg-muted/50 p-4 rounded-lg">
                     "Le ferite invisibili pesano più di quelle visibili. Non portarle da sol*, chiedi aiuto."
                   </p>
+                </div>
+              </DialogContent>
+            </Dialog>
+
+            {/* Newspaper Conference Article */}
+            <Dialog>
+              <DialogTrigger asChild>
+                <div className="group cursor-pointer">
+                  <Card className="overflow-hidden h-full text-left hover:shadow-lg transition-shadow duration-300">
+                    <div className="relative">
+                      <img 
+                        src="/lovable-uploads/d1a5d36f-f414-4215-aae6-31262e64c616.png"
+                        alt="Articolo giornale - Dalla prepotenza al reato"
+                        className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300"></div>
+                    </div>
+                    <CardContent className="p-6">
+                      <h3 className="text-xl font-semibold text-foreground mb-2">
+                        "Dalla prepotenza al reato"
+                      </h3>
+                      <p className="text-muted-foreground mb-4">
+                        Convegno all'auditorium Sant'Alfonso di Pagani
+                      </p>
+                      <p className="text-sm text-muted-foreground">
+                        Intervento su temi di violenza, cyberbullismo e educazione nelle scuole.
+                      </p>
+                    </CardContent>
+                  </Card>
+                </div>
+              </DialogTrigger>
+              <DialogContent className="max-w-6xl max-h-[90vh] overflow-auto">
+                <div className="flex flex-col items-center space-y-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
+                    <img 
+                      src="/lovable-uploads/7087d2c6-0941-4204-80d4-0d1d9643c52b.png"
+                      alt="Foto conferenza - Tavola rotonda"
+                      className="w-full h-auto object-contain rounded-lg"
+                    />
+                    <img 
+                      src="/lovable-uploads/3b306a64-0b53-4701-8a41-d32ad6f2fd6f.png"
+                      alt="Foto conferenza - Instagram story"
+                      className="w-full h-auto object-contain rounded-lg"
+                    />
+                    <img 
+                      src="/lovable-uploads/c217cb6d-58ba-4331-8185-e42fa8d46f3c.png"
+                      alt="Foto conferenza - Panoramica auditorium"
+                      className="w-full h-auto object-contain rounded-lg"
+                    />
+                  </div>
+                  <div className="text-center">
+                    <a 
+                      href="https://www.ilgazzettinovesuviano.com/2025/04/11/mille-colori-solo-cuore-a-san-giorgio-a-cremano-si-parla-di-inclusione-vera/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center text-primary hover:underline font-semibold"
+                    >
+                      <Link className="w-4 h-4 mr-2" />
+                      Leggi l'articolo completo
+                    </a>
+                  </div>
                 </div>
               </DialogContent>
             </Dialog>
