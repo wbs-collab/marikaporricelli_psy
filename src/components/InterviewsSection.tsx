@@ -2,6 +2,13 @@ import { Video, Link, X } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
+// Import the images from the assets folder
+import conferencePoster from "@/assets/064857cb-eb90-4c88-bb7f-896abbe52554.png";
+import newspaperArticle from "@/assets/d1a5d36f-f414-4215-aae6-31262e64c616.png";
+import conferencePhoto1 from "@/assets/7087d2c6-0941-4204-80d4-0d1d9643c52b.png";
+import conferencePhoto2 from "@/assets/b8d9d11e-a76b-444c-b318-a8684028a4ae.png";
+import conferencePhoto3 from "@/assets/c217cb6d-58ba-4331-8185-e42fa8d46f3c.png";
+
 const InterviewsSection = () => {
   return (
     <section id="interviews" className="py-20 bg-muted/50">
@@ -58,7 +65,7 @@ const InterviewsSection = () => {
                   <Card className="overflow-hidden h-full text-left hover:shadow-lg transition-shadow duration-300">
                     <div className="relative">
                       <img 
-                        src="/lovable-uploads/064857cb-eb90-4c88-bb7f-896abbe52554.png"
+                        src={conferencePoster}
                         alt="Locandina conferenza - Quando l'amore diventa violenza"
                         className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                       />
@@ -81,7 +88,7 @@ const InterviewsSection = () => {
               <DialogContent className="max-w-4xl max-h-[90vh] overflow-auto">
                 <div className="flex flex-col items-center">
                   <img 
-                    src="/lovable-uploads/064857cb-eb90-4c88-bb7f-896abbe52554.png"
+                    src={conferencePoster}
                     alt="Locandina conferenza - Quando l'amore diventa violenza"
                     className="w-full max-w-2xl h-auto object-contain mb-6"
                   />
@@ -99,7 +106,7 @@ const InterviewsSection = () => {
                   <Card className="overflow-hidden h-full text-left hover:shadow-lg transition-shadow duration-300">
                     <div className="relative">
                       <img 
-                        src="/lovable-uploads/d1a5d36f-f414-4215-aae6-31262e64c616.png"
+                        src={newspaperArticle}
                         alt="Articolo giornale - Dalla prepotenza al reato"
                         className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                       />
@@ -123,17 +130,17 @@ const InterviewsSection = () => {
                 <div className="flex flex-col items-center space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
                     <img 
-                      src="/lovable-uploads/7087d2c6-0941-4204-80d4-0d1d9643c52b.png"
+                      src={conferencePhoto1}
                       alt="Foto conferenza - Tavola rotonda"
                       className="w-full h-auto object-contain rounded-lg"
                     />
                     <img 
-                      src="/lovable-uploads/b8d9d11e-a76b-444c-b318-a8684028a4ae.png"
+                      src={conferencePhoto2}
                       alt="Foto conferenza - Intervento della dottoressa"
                       className="w-full h-auto object-contain rounded-lg"
                     />
                     <img 
-                      src="/lovable-uploads/c217cb6d-58ba-4331-8185-e42fa8d46f3c.png"
+                      src={conferencePhoto3}
                       alt="Foto conferenza - Panoramica auditorium"
                       className="w-full h-auto object-contain rounded-lg"
                     />
