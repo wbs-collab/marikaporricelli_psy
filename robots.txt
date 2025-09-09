@@ -1,14 +1,6 @@
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
+# Allow all user agents to crawl the entire site
 User-agent: *
 Allow: /
+
+# Provide the location of the sitemap
+Sitemap: https://wbs-collab.github.io/marikaporricelli_psy/sitemap.xml
