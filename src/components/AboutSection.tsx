@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import profileImage from "@/assets/38e8d6ed-ba6-4317-b0fd-2b912f115df9.png";
+import profileImage from "@/assets/38e8d6ed-6ba0-4317-b0fd-2b912f115df9.png";
 const AboutSection = () => {
   return <section id="about" className="py-20 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
