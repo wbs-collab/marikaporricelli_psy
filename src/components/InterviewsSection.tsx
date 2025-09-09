@@ -128,8 +128,8 @@ const InterviewsSection = () => {
                       className="w-full h-auto object-contain rounded-lg"
                     />
                     <img 
-                      src="/lovable-uploads/3b306a64-0b53-4701-8a41-d32ad6f2fd6f.png"
-                      alt="Foto conferenza - Instagram story"
+                      src="/lovable-uploads/b8d9d11e-a76b-444c-b318-a8684028a4ae.png"
+                      alt="Foto conferenza - Intervento della dottoressa"
                       className="w-full h-auto object-contain rounded-lg"
                     />
                     <img 
