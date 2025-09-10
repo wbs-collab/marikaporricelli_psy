@@ -119,7 +119,7 @@ const ContactSection = () => {
                   variant="outline" 
                   size="lg"
                   className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                  onClick={() => window.location.href = 'mailto:info@marikaporicelli.it'}
+                  onClick={() => window.location.href = 'mailto:psyporricelli@gmail.com'}
                 >
                   Invia Email
                 </Button>
