@@ -47,7 +47,7 @@ const ContactSection = () => {
                   </div>
 
                   <a 
-                    href="https://www.google.com/maps/dir/?api=1&destination=Via%20della%20Repubblica%2C%208%2C%20Cardito%2C%20NA"
+                    href="https://www.google.com/maps/search/?api=1&query=Via%20della%20Repubblica%2C%208%2C%20Cardito%2C%20NA"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-start space-x-4 group"
