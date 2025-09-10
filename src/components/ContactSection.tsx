@@ -102,7 +102,7 @@ const ContactSection = () => {
             <iframe 
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3013.8610121767338!2d14.299921776422371!3d40.94071322358182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133ba9f6b3f0a255%3A0x9c59f07eed3bc675!2sVia%20della%20Repubblica%2C%208%2C%2080024%20Cardito%20NA%2C%20Italy!5e0!3m2!1sen!2sus!4v1757537809414!5m2!1sen!2sus" 
               className="w-full h-80 border-0" 
-              allowFullScreen="" 
+              allowFullScreen 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade">
             </iframe>
