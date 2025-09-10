@@ -46,16 +46,21 @@ const ContactSection = () => {
                     </div>
                   </div>
 
-                  <div className="flex items-start space-x-4">
-                    <div className="w-10 h-10 flex items-center justify-center rounded-full bg-primary/10 text-primary flex-shrink-0">
+                  <a 
+                    href="https://www.google.com/maps/search/?api=1&query=40.9407092,14.3024967"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-start space-x-4 group"
+                  >
+                    <div className="w-10 h-10 flex items-center justify-center rounded-full bg-primary/10 text-primary flex-shrink-0 group-hover:bg-primary/20 transition-colors">
                       <MapPin className="w-5 h-5" />
                     </div>
                     <div>
-                      <p className="font-medium text-foreground">Studio</p>
-                      <p className="text-muted-foreground">Via della Repubblica, 8</p>
-                      <p className="text-muted-foreground">Cardito, NA</p>
+                      <p className="font-medium text-foreground group-hover:text-primary transition-colors">Studio</p>
+                      <p className="text-muted-foreground group-hover:underline">Via della Repubblica, 8</p>
+                      <p className="text-muted-foreground group-hover:underline">Cardito, NA</p>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </CardContent>
             </Card>
@@ -96,16 +101,6 @@ const ContactSection = () => {
                 </div>
               </CardContent>
             </Card>
-          </div>
-          
-          <div className="mt-12 rounded-lg overflow-hidden shadow-warm border border-border">
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3013.8610121767338!2d14.299921776422371!3d40.94071322358182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133ba9f6b3f0a255%3A0x9c59f07eed3bc675!2sVia%20della%20Repubblica%2C%208%2C%2080024%20Cardito%20NA%2C%20Italy!5e0!3m2!1sen!2sus!4v1757538244345!5m2!1sen!2sus" 
-              className="w-full h-80 border-0" 
-              allowFullScreen
-              loading="lazy" 
-              referrerPolicy="no-referrer-when-downgrade">
-            </iframe>
           </div>
 
           <div className="text-center mt-12">

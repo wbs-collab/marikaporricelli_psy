@@ -1,6 +1,7 @@
 const StudioSection = () => {
-  return <section id="studio" className="py-20 bg-background/80">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+  return (
+    <section id="studio" className="py-20 bg-background/80">
+      <div className="container mx-auto px-4 sm-px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-foreground mb-4">
@@ -9,22 +10,19 @@ const StudioSection = () => {
             <div className="section-divider mb-8"></div>
           </div>
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative rounded-lg overflow-hidden shadow-elevated">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.123!2d14.256!3d40.941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDU2JzI4LjAiTiAxNMKwMTUnMjIuMCJF!5e0!3m2!1sit!2sit!4v1234567890&q=Via+della+Repubblica,+8,+Cardito,+NA,+80024"
-                width="100%"
-                height="400"
-                style={{ border: 0 }}
+            <div className="relative rounded-lg overflow-hidden shadow-elevated h-96">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3013.8610121767338!2d14.299921776422371!3d40.94071322358182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133ba9f6b3f0a255%3A0x9c59f07eed3bc675!2sVia%20della%20Repubblica%2C%208%2C%2080024%20Cardito%20NA%2C%20Italy!5e0!3m2!1sen!2sus!4v1757538244345!5m2!1sen!2sus" 
+                className="w-full h-full border-0" 
                 allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="w-full h-full object-cover"
-                title="Ubicazione Studio - Via della Repubblica, 8, Cardito, NA"
-              ></iframe>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent pointer-events-none"></div>
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade">
+              </iframe>
             </div>
             <div className="space-y-6 text-lg">
-              <p className="text-foreground leading-relaxed text-justify">Il mio studio è pensato per essere un rifugio sicuro, dove un’atmosfera calda favorisce il rilassamento e l’apertura emotiva.</p>
+              <p className="text-foreground leading-relaxed text-justify">
+                Il mio studio è pensato per essere un rifugio sicuro e atmosfere calde che favoriscono il rilassamento e l'apertura emotiva.
+              </p>
               <p className="text-muted-foreground leading-relaxed text-justify">
                 Ogni dettaglio è studiato per creare un ambiente che rispecchi i valori di calore umano e professionalità, dove ogni persona può sentirsi a proprio agio nel condividere le proprie esperienze e difficoltà.
               </p>
@@ -32,6 +30,8 @@ const StudioSection = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default StudioSection;
