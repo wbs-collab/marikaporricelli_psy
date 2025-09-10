@@ -46,21 +46,16 @@ const ContactSection = () => {
                     </div>
                   </div>
 
-                  <a 
-                    href="https://www.google.com/maps/place/Via+della+Repubblica,+8,+80024+Cardito+NA,+Italy/@40.9407132,14.2999218,17z/data=!3m1!4b1!4m6!3m5!1s0x133ba9f6b3f0a255:0x9c59f07eed3bc675!8m2!3d40.9407092!4d14.3024967!16s%2Fg%2F11khthz2n7?hl=en&entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-start space-x-4 group"
-                  >
-                    <div className="w-10 h-10 flex items-center justify-center rounded-full bg-primary/10 text-primary flex-shrink-0 group-hover:bg-primary/20 transition-colors">
+                  <div className="flex items-start space-x-4">
+                    <div className="w-10 h-10 flex items-center justify-center rounded-full bg-primary/10 text-primary flex-shrink-0">
                       <MapPin className="w-5 h-5" />
                     </div>
                     <div>
-                      <p className="font-medium text-foreground group-hover:text-primary transition-colors">Studio</p>
-                      <p className="text-muted-foreground group-hover:underline">Via della Repubblica, 8</p>
-                      <p className="text-muted-foreground group-hover:underline">Cardito, NA</p>
+                      <p className="font-medium text-foreground">Studio</p>
+                      <p className="text-muted-foreground">Via della Repubblica, 8</p>
+                      <p className="text-muted-foreground">Cardito, NA</p>
                     </div>
-                  </a>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -102,8 +97,18 @@ const ContactSection = () => {
               </CardContent>
             </Card>
           </div>
+          
+          <div className="mt-12 rounded-lg overflow-hidden shadow-warm border border-border">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3013.8610121767338!2d14.299921776422371!3d40.94071322358182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133ba9f6b3f0a255%3A0x9c59f07eed3bc675!2sVia%20della%20Repubblica%2C%208%2C%2080024%20Cardito%20NA%2C%20Italy!5e0!3m2!1sen!2sus!4v1757537809414!5m2!1sen!2sus" 
+              className="w-full h-80 border-0" 
+              allowFullScreen="" 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
 
-          <div className="text-center">
+          <div className="text-center mt-12">
             <div className="bg-background p-8 rounded-lg shadow-warm border border-border">
               <h3 className="text-2xl font-serif font-semibold text-foreground mb-4">
                 Pronto per Iniziare?
