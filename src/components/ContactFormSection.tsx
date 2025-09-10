@@ -16,7 +16,7 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
-import { MessageSquare, Mail } from "lucide-react";
+import { MessageSquare, Mail, CheckCircle, XCircle } from "lucide-react";
 
 const formSchema = z.object({
   nome: z.string().min(1, "Nome è richiesto"),
@@ -36,6 +36,7 @@ type FormData = z.infer<typeof formSchema>;
 
 const ContactFormSection = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submissionStatus, setSubmissionStatus] = useState<"success" | "error" | null>(null);
 
   const form = useForm<FormData>({
     resolver: zodResolver(formSchema),
@@ -51,14 +52,39 @@ const ContactFormSection = () => {
 
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true);
-    // Handle form submission here
-    console.log("Form data:", data);
-    
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    
-    setIsSubmitting(false);
-    form.reset();
+    setSubmissionStatus(null);
+
+    const formData = new FormData();
+    formData.append("access_key", "f7bcd758-50c8-4214-be6e-60e728e3932f");
+    formData.append("nome", data.nome);
+    formData.append("cognome", data.cognome || "");
+    formData.append("telefono", data.telefono);
+    formData.append("email", data.email);
+    formData.append("contatto", data.contatto);
+    formData.append("richiesta", data.richiesta);
+    formData.append("privacy", data.privacy.toString());
+    formData.append("subject", `Nuova richiesta di contatto da ${data.nome}`);
+
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        setSubmissionStatus("success");
+        form.reset();
+      } else {
+        setSubmissionStatus("error");
+      }
+    } catch (error) {
+      setSubmissionStatus("error");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -73,6 +99,7 @@ const ContactFormSection = () => {
           </div>
 
           <div className="bg-card rounded-lg shadow-sm border border-border p-8">
+            {submissionStatus === null && (
             <Form {...form}>
               <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -233,6 +260,28 @@ const ContactFormSection = () => {
                 </div>
               </form>
             </Form>
+            )}
+
+            {submissionStatus === "success" && (
+              <div className="text-center py-12">
+                <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
+                <h3 className="text-2xl font-semibold text-foreground mb-2">Messaggio Inviato!</h3>
+                <p className="text-muted-foreground">
+                  Grazie per avermi contattato. Ti risponderò il prima possibile.
+                </p>
+              </div>
+            )}
+
+            {submissionStatus === "error" && (
+              <div className="text-center py-12">
+                <XCircle className="w-16 h-16 text-destructive mx-auto mb-4" />
+                <h3 className="text-2xl font-semibold text-foreground mb-2">Qualcosa è andato storto</h3>
+                <p className="text-muted-foreground mb-6">
+                  Non è stato possibile inviare il tuo messaggio. Per favore, riprova più tardi o contattami direttamente.
+                </p>
+                <Button onClick={() => setSubmissionStatus(null)}>Riprova</Button>
+              </div>
+            )}
           </div>
         </div>
       </div>
