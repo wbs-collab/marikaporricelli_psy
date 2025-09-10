@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Ear, Heart, BookOpen, Users } from "lucide-react";
+import marikaVideo from "@/assets/Marikavideo.mp4";
 
 const ApproachSection = () => {
   const approaches = [
@@ -62,19 +63,32 @@ const ApproachSection = () => {
             ))}
           </div>
 
-          <div className="text-center">
-            <h3 className="text-2xl font-serif font-semibold text-foreground mb-6">
-              Percorsi Personalizzati
-            </h3>
-            <p className="text-muted-foreground leading-relaxed mb-4 max-w-2xl mx-auto">
-              Non esistono soluzioni universali in psicoterapia. Ogni intervento è costruito 
-              specificamente per la persona o la famiglia che ho di fronte, rispettando le 
-              sue caratteristiche uniche e i suoi obiettivi.
-            </p>
-            <p className="text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-              La durata e la frequenza degli incontri vengono concordate insieme, 
-              garantendo flessibilità e adattamento alle esigenze specifiche di ogni situazione.
-            </p>
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="text-left">
+              <h3 className="text-2xl font-serif font-semibold text-foreground mb-6">
+                Percorsi Personalizzati
+              </h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Non esistono soluzioni universali in psicoterapia. Ogni intervento è costruito 
+                specificamente per la persona o la famiglia che ho di fronte, rispettando le 
+                sue caratteristiche uniche e i suoi obiettivi.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                La durata e la frequenza degli incontri vengono concordate insieme, 
+                garantendo flessibilità e adattamento alle esigenze specifiche di ogni situazione.
+              </p>
+            </div>
+            <div>
+              <video 
+                src={marikaVideo} 
+                className="rounded-lg shadow-elevated w-full h-full object-cover"
+                autoPlay 
+                loop 
+                muted 
+                playsInline
+                controls 
+              />
+            </div>
           </div>
         </div>
       </div>
