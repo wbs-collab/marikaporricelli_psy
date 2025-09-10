@@ -50,7 +50,7 @@ const Header = () => {
               Approccio
             </button>
             <button
-              onClick={() => scrollToSection('contact-form')}
+              onClick={() => scrollToSection('contact')}
               className="text-foreground hover:text-primary transition-colors duration-200"
             >
               Contatti
