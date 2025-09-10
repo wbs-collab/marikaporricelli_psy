@@ -46,16 +46,21 @@ const ContactSection = () => {
                     </div>
                   </div>
 
-                  <div className="flex items-start space-x-4">
-                    <div className="w-10 h-10 flex items-center justify-center rounded-full bg-primary/10 text-primary flex-shrink-0">
+                  <a 
+                    href="https://www.google.com/maps/dir/?api=1&destination=Via%20della%20Repubblica%2C%208%2C%20Cardito%2C%20NA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-start space-x-4 group"
+                  >
+                    <div className="w-10 h-10 flex items-center justify-center rounded-full bg-primary/10 text-primary flex-shrink-0 group-hover:bg-primary/20 transition-colors">
                       <MapPin className="w-5 h-5" />
                     </div>
                     <div>
-                      <p className="font-medium text-foreground">Studio</p>
-                      <p className="text-muted-foreground">Via della Repubblica, 8</p>
-                      <p className="text-muted-foreground">Cardito, NA</p>
+                      <p className="font-medium text-foreground group-hover:text-primary transition-colors">Studio</p>
+                      <p className="text-muted-foreground group-hover:underline">Via della Repubblica, 8</p>
+                      <p className="text-muted-foreground group-hover:underline">Cardito, NA</p>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </CardContent>
             </Card>
