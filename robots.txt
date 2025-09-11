@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Provide the location of the sitemap
-Sitemap: https://wbs-collab.github.io/marikaporricelli_psy/sitemap.xml
+Sitemap: https://www.marikaporricellipsicologa.it/sitemap.xml
